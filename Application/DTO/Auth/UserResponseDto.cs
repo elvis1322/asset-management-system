@@ -1,0 +1,9 @@
+namespace Application.DTO.Auth;
+public class UserResponseDto
+{
+    public Guid Id { get; set; }
+    public required string Email { get; set; } 
+    public required string FullName { get; set; } 
+     public required string Gender { get; set; }
+    public List<string> Roles { get; set; } = new();
+}
