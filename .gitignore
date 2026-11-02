@@ -1,0 +1,61 @@
+## ==========================================
+## Secrets & Environment Files (KRITIKE)
+## ==========================================
+.env
+.env.*
+*.env
+.env
+!.env.example
+appsettings.Local.json
+*.pem
+*.pfx
+*.p12
+
+## ==========================================
+## Local Databases (SQLite & LocalDB)
+## ==========================================
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+## ==========================================
+## Build & Output Directories (.NET Core)
+## ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+build/
+artifacts/
+publish/
+
+## ==========================================
+## User-Specific & IDE Files
+## ==========================================
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+## ==========================================
+## Operating System Files
+## ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini

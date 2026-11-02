@@ -1,0 +1,406 @@
+
+/* ========================================
+   SWAGGER UI - COMPLETE DARK THEME
+   ======================================== */
+
+/* Main background */
+html,
+body,
+.swagger-ui,
+.swagger-ui .wrapper {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+/* Top navigation bar */
+.swagger-ui .topbar {
+    background: #020617 !important;
+}
+
+.swagger-ui .topbar a,
+.swagger-ui .topbar .download-url-wrapper {
+    color: #f8fafc !important;
+}
+
+/* Main information and scheme sections */
+.swagger-ui .information-container,
+.swagger-ui .scheme-container,
+.swagger-ui section.models {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+/* Main headings */
+.swagger-ui h1,
+.swagger-ui h2,
+.swagger-ui h3,
+.swagger-ui h4,
+.swagger-ui h5,
+.swagger-ui h6,
+.swagger-ui .title,
+.swagger-ui .info,
+.swagger-ui .info p,
+.swagger-ui .info li,
+.swagger-ui p,
+.swagger-ui label,
+.swagger-ui span,
+.swagger-ui td,
+.swagger-ui th {
+    color: #e2e8f0;
+}
+
+/* API endpoint cards */
+.swagger-ui .opblock {
+    background: #1e293b !important;
+    border: 1px solid #475569 !important;
+    box-shadow: none !important;
+}
+
+.swagger-ui .opblock .opblock-summary {
+    background: #1e293b !important;
+    border-color: #475569 !important;
+}
+
+.swagger-ui .opblock .opblock-summary-path,
+.swagger-ui .opblock .opblock-summary-path__deprecated,
+.swagger-ui .opblock .opblock-summary-description {
+    color: #e2e8f0 !important;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* HTTP method colors */
+.swagger-ui .opblock.opblock-get {
+    background: rgba(97, 175, 254, 0.10) !important;
+    border-color: #61affe !important;
+}
+
+.swagger-ui .opblock.opblock-post {
+    background: rgba(73, 204, 144, 0.10) !important;
+    border-color: #49cc90 !important;
+}
+
+.swagger-ui .opblock.opblock-put {
+    background: rgba(252, 161, 48, 0.10) !important;
+    border-color: #fca130 !important;
+}
+
+.swagger-ui .opblock.opblock-patch {
+    background: rgba(80, 227, 194, 0.10) !important;
+    border-color: #50e3c2 !important;
+}
+
+.swagger-ui .opblock.opblock-delete {
+    background: rgba(249, 62, 62, 0.10) !important;
+    border-color: #f93e3e !important;
+}
+
+/* Endpoint details and sections */
+.swagger-ui .opblock .opblock-body,
+.swagger-ui .opblock-section,
+.swagger-ui .opblock-section-header,
+.swagger-ui .parameters-container,
+.swagger-ui .responses-wrapper {
+    background: #1e293b !important;
+    color: #e2e8f0 !important;
+}
+
+.swagger-ui .opblock-section-header h4,
+.swagger-ui .opblock-section-header label {
+    color: #f8fafc !important;
+}
+
+/* Parameters headings and table */
+.swagger-ui table thead tr th,
+.swagger-ui table thead tr td,
+.swagger-ui .parameters-col_name,
+.swagger-ui .parameters-col_description,
+.swagger-ui .response-col_status,
+.swagger-ui .response-col_description,
+.swagger-ui .response-col_links {
+    color: #e2e8f0 !important;
+    border-color: #334155 !important;
+}
+
+/* Parameter names and types */
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__name.required,
+.swagger-ui .parameter__type,
+.swagger-ui .parameter__in,
+.swagger-ui .parameter__deprecated,
+.swagger-ui .prop-name,
+.swagger-ui .prop-type {
+    color: #f1f5f9 !important;
+}
+
+/* Required parameter asterisk */
+.swagger-ui .parameter__name.required span {
+    color: #f87171 !important;
+}
+
+/* Available values and descriptions */
+.swagger-ui .parameter__enum,
+.swagger-ui .markdown p,
+.swagger-ui .markdown li,
+.swagger-ui .renderedMarkdown p,
+.swagger-ui .renderedMarkdown li,
+.swagger-ui .renderedMarkdown code {
+    color: #e2e8f0 !important;
+}
+
+/* Inputs, dropdowns and text areas */
+.swagger-ui input,
+.swagger-ui select,
+.swagger-ui textarea,
+.swagger-ui .search input {
+    background: #0f172a !important;
+    color: #f8fafc !important;
+    border: 1px solid #475569 !important;
+    border-radius: 5px !important;
+}
+
+.swagger-ui input::placeholder,
+.swagger-ui textarea::placeholder {
+    color: #94a3b8 !important;
+    opacity: 1 !important;
+}
+
+/* Dropdown options */
+.swagger-ui select option {
+    background: #0f172a !important;
+    color: #f8fafc !important;
+}
+
+/* Buttons */
+.swagger-ui .btn {
+    color: #f8fafc !important;
+    border-color: #64748b !important;
+}
+
+.swagger-ui .btn:hover {
+    border-color: #93c5fd !important;
+}
+
+/* Authorize button */
+.swagger-ui .btn.authorize {
+    background: #16a34a !important;
+    color: #ffffff !important;
+    border-color: #16a34a !important;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #ffffff !important;
+}
+
+/* Execute button */
+.swagger-ui .btn.execute {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+}
+
+/* Try it out button */
+.swagger-ui .try-out__btn {
+    color: #f8fafc !important;
+    border-color: #64748b !important;
+}
+
+/* Disabled buttons */
+.swagger-ui .btn:disabled {
+    color: #94a3b8 !important;
+    opacity: 0.65 !important;
+}
+
+/* Lock icons, arrows and general SVG icons */
+.swagger-ui svg {
+    fill: currentColor;
+}
+
+.swagger-ui .authorization__btn,
+.swagger-ui .opblock-control-arrow {
+    color: #e2e8f0 !important;
+    fill: #e2e8f0 !important;
+}
+
+/* Request and response panels */
+.swagger-ui .highlight-code,
+.swagger-ui .microlight,
+.swagger-ui .model-box,
+.swagger-ui .model-container,
+.swagger-ui .model-example,
+.swagger-ui .body-param,
+.swagger-ui .body-param__text {
+    background: #0b1220 !important;
+    color: #e2e8f0 !important;
+}
+
+/* JSON and code text */
+.swagger-ui pre,
+.swagger-ui code,
+.swagger-ui .microlight,
+.swagger-ui .highlight-code pre {
+    color: #e2e8f0 !important;
+}
+
+/* Response tables and model tables */
+.swagger-ui .responses-table,
+.swagger-ui .responses-table tbody tr td,
+.swagger-ui .model-box-control,
+.swagger-ui .model {
+    color: #e2e8f0 !important;
+    border-color: #334155 !important;
+}
+
+/* Tabs */
+.swagger-ui .tab li,
+.swagger-ui .tab li button,
+.swagger-ui .tab li button span {
+    color: #cbd5e1 !important;
+}
+
+.swagger-ui .tab li.active button span {
+    color: #60a5fa !important;
+}
+
+/* Models and schemas */
+.swagger-ui section.models h4,
+.swagger-ui section.models h5,
+.swagger-ui .model-title,
+.swagger-ui .model-toggle,
+.swagger-ui .model .property {
+    color: #e2e8f0 !important;
+}
+
+/* Links */
+.swagger-ui a,
+.swagger-ui .link {
+    color: #60a5fa !important;
+}
+
+.swagger-ui a:hover {
+    color: #93c5fd !important;
+}
+
+/* Separators */
+.swagger-ui hr,
+.swagger-ui .opblock-tag {
+    border-color: #334155 !important;
+}
+
+.swagger-ui .opblock-tag {
+    color: #f8fafc !important;
+}
+
+/* Scrollbar */
+.swagger-ui ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.swagger-ui ::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+.swagger-ui ::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 5px;
+}
+
+.swagger-ui ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+
+/* ========================================
+   DARK MODE - AUTHORIZATION MODAL
+   ======================================== */
+
+/* Modal background and content */
+.swagger-ui .dialog-ux .modal-ux {
+    background: #1e293b !important;
+    border: 1px solid #475569 !important;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Modal header */
+.swagger-ui .dialog-ux .modal-ux-header {
+    background: #0f172a !important;
+    border-bottom: 1px solid #334155 !important;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+    color: #f8fafc !important;
+}
+
+/* Close X button */
+.swagger-ui .dialog-ux .modal-ux-header button {
+    color: #f8fafc !important;
+}
+
+/* Modal body */
+.swagger-ui .dialog-ux .modal-ux-content,
+.swagger-ui .dialog-ux .modal-ux-content p,
+.swagger-ui .dialog-ux .modal-ux-content h4,
+.swagger-ui .dialog-ux .modal-ux-content h5,
+.swagger-ui .dialog-ux .modal-ux-content label,
+.swagger-ui .dialog-ux .modal-ux-content span {
+    background-color: transparent;
+    color: #e2e8f0 !important;
+}
+
+/* Authorization scheme name */
+.swagger-ui .auth-container h4,
+.swagger-ui .auth-container h5,
+.swagger-ui .auth-container p,
+.swagger-ui .auth-container label {
+    color: #e2e8f0 !important;
+}
+
+/* Authorized status */
+.swagger-ui .auth-container .wrapper,
+.swagger-ui .auth-container .scope-def {
+    color: #cbd5e1 !important;
+}
+
+/* Token value and inputs */
+.swagger-ui .dialog-ux input,
+.swagger-ui .dialog-ux textarea,
+.swagger-ui .auth-container input {
+    background: #0f172a !important;
+    color: #f8fafc !important;
+    border: 1px solid #475569 !important;
+}
+
+/* Modal buttons */
+.swagger-ui .dialog-ux .btn,
+.swagger-ui .auth-container .btn {
+    background: #334155 !important;
+    color: #f8fafc !important;
+    border: 1px solid #64748b !important;
+}
+
+.swagger-ui .dialog-ux .btn:hover,
+.swagger-ui .auth-container .btn:hover {
+    background: #475569 !important;
+}
+
+/* Logout button */
+.swagger-ui .auth-btn-wrapper .btn.modal-btn {
+    color: #f8fafc !important;
+}
+
+/* Prevent white backgrounds inside authorization modal */
+.swagger-ui .dialog-ux .modal-ux *,
+.swagger-ui .auth-container * {
+    border-color: #475569;
+}
+
+/* Keep text readable in token information */
+.swagger-ui .dialog-ux code,
+.swagger-ui .dialog-ux pre {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
