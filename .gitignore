@@ -27,7 +27,6 @@ appsettings.Local.json
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-build/
 artifacts/
 publish/
 
