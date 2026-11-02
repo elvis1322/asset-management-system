@@ -3,6 +3,9 @@ using API.Security.Middleware;
 using Application;
 using Persistence;
 using DotNetEnv;
+using Microsoft.EntityFrameworkCore;
+using Persistence.Data;
+using Persistence.Seeders;
 
 Env.Load();
 
@@ -16,7 +19,6 @@ builder.Services.AddPersistenceLayer(builder.Configuration);
 
 var app = builder.Build();
 
-// Global exception handling
 app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 if (!app.Environment.IsDevelopment())
